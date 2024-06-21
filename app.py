@@ -8,8 +8,8 @@ import csv
 
 class CalculaGanador:
     def __init__(self):
-        self.CANDIDATO = None
-        self.ESVALIDO = None
+        self.CANDIDATO = 4
+        self.ESVALIDO = 5
 
     # Tecnica de parametrizacion: se añade un parametro nombre_archivo para poder leer cualquier archivo (hace el codigo más flexible)
     # Tecnica de Renombre: se renombra la funcion leer_datos a cargar_datos_de_csv que explica mejor lo que hace el metodo

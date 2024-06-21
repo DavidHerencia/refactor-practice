@@ -84,3 +84,15 @@ datatest = [
 ['Áncash', 'Asunción', 'Acochaca', '23017965', 'Aundrea Grace', '1']
 ]
 print("Resultados :",c.calcularganador(datatest))
+
+"""
+Evaluacion de codigo resulntante (5 puntos):
+- El codigo ahora es mas legible y entendible.
+- Se definireon nuevos metodos para acciones especificas.
+- El codigo ahora retorna correctamente el resultado esperado, el ganador en caso de tener mas del 50% de votos validos
+o los dos primeros candidatos en caso de empate.
+- Se introdujeron variables descriptivas para hacer mas entendible el codigo, como CANDIDATO, ESVALIDO, VALIDO y CONTEO_VOTOS,
+para hacer mas entendible el codigo cuando se manejan estos valores.
+- La funcion de cargar_datos_de_csv es mas robusta , debido a que analiza que el .csv contenga las columnas
+necesarias para el calculo del ganador.
+"""
